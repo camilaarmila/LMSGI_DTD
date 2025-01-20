@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd"> 
+<cataleg>
+    <llista_actors> 
+         <actor id="f05"/>  
+            <nom>Tom Holland</nom>    
+            <edat>28</edat>
+        </actor>
+        <actor id="d23"/> 
+            <nom>Brad Pitt</nom>    
+            <edat>61</edat>               
+        </actor>
+        <actor id="a19"/>
+            <nom>Leonardo Di Caprio</nom>
+            <!-- L'edat es opcional -->
+        </actor>
+    </llista_actors>
+    <llista_pelicules> 
+        <pelicula id="e33">
+            <titol idioma="anglès">Titanic</titol>
+            <director>James Cameron</director>
+            <any>1997</any>
+            <actors>
+                <actors_ref ref="a19"/>
+            </actors>
+        </pelicula>
+        <pelicula id="i44">
+            <titol idioma="anglès">Spiderman</titol>
+            <director>Jon Watts</director>
+            <any>2017</any>
+            <actors>
+                <actors_ref ref="f05"/>
+            </actors>
+        </pelicula>
+        <pelicula id="h55">
+            <titol idioma="anglès">Once Upon a Time in Hollywood</titol>
+            <director>Quentin Tarantino</director>
+            <any>2019</any>
+            <actors>
+                <actors_ref ref="d23"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules> 
+        <recomanacio ref="e33"/>
+        <recomanacio ref="i44"/>
+        <recomanacio ref="h55"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
